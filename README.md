@@ -4,3 +4,4 @@
 * Updated Readme information
 * Updated Conversion Logic
 * Added Social preview image
+* Added first release
