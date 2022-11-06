@@ -66,5 +66,12 @@ namespace Temperature_Conversion
         }
 
         #endregion
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1.Clear();
+            textBox4.Clear();
+            textBox1.Focus();
+        }
     }
 }
