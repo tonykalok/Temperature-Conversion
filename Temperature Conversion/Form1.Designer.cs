@@ -64,6 +64,8 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(202, 71);
             this.textBox4.TabIndex = 10;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
+            this.textBox4.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox4_KeyDown);
             // 
             // textBox1
             // 
@@ -73,6 +75,8 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(202, 71);
             this.textBox1.TabIndex = 9;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // Form1
             // 
@@ -88,6 +92,7 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Temperature Conversion";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
